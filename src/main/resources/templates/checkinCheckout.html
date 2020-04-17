@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>checkinCheckout</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/css/checkinCheckout.css">
+</head>
+<body>
+	<form th:action="@{/checkin}" method="post">
+		<div>
+			<button type="submit">Checkin</button>
+		</div>
+	</form>
+	
+	<form th:action="@{/checkout}" method="post">
+	
+	    <div>
+			<button type="submit">Checkout</button>
+		</div>
+	</form>
+</body>
+</html>
